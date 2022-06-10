@@ -1,4 +1,8 @@
-#!/usr/bin/php
 <?php
-	phpinfo(32);
+	$array = $_GET;
+
+	foreach($array as $key => $value)
+	{
+		print($key . ": " . $value . "\n");
+	}
 ?>
