@@ -3,6 +3,6 @@
 
 	foreach($array as $key => $value)
 	{
-		print($key . ": " . $value . "\n");
+		echo "$key: $value\n";
 	}
 ?>
